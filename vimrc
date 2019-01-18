@@ -1,6 +1,8 @@
 call plug#begin('$HOME/.vim/plugged')
 Plug 'tomasr/molokai'
 Plug 'sjl/badwolf'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
 call plug#end()
 colorscheme molokai
 "colorscheme badwolf
