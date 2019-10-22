@@ -6,7 +6,8 @@ Plug 'tpope/vim-commentary'
 call plug#end()
 colorscheme molokai
 "colorscheme badwolf
-  
+
+autocmd FileType r setlocal commentstring=#\ %s
 set smartindent
 set number
 set autoindent
@@ -14,3 +15,4 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set mouse=a
+set ruler
