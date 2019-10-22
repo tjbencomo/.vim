@@ -1,3 +1,4 @@
+execute pathogen#infect()
 call plug#begin('$HOME/.vim/plugged')
 Plug 'tomasr/molokai'
 Plug 'sjl/badwolf'
@@ -6,7 +7,8 @@ Plug 'tpope/vim-commentary'
 call plug#end()
 colorscheme molokai
 "colorscheme badwolf
-  
+
+
 set smartindent
 set number
 set autoindent
