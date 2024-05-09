@@ -4,6 +4,7 @@ Plug 'tomasr/molokai'
 Plug 'sjl/badwolf'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
+Plugin 'LukeGoodsell/nextflow-vim'
 call plug#end()
 colorscheme molokai
 "colorscheme badwolf
